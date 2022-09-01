@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: ATmega328Playground.CMPcbDoc   9/1/2022  9:05:14 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : ATmega328Playground.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.305mm)                                           Round             167       PTH        44.41inch (1128.13mm)
+T2      28mil (0.7mm)                                             Round             6         PTH        1.10inch (28.00mm)
+T3      30mil (0.762mm)                                           Round             20        PTH        6.29inch (159.74mm)
+T4      35mil (0.889mm)                                           Round             8         PTH        0.70inch (17.78mm)
+T5      39mil (1mm)                                               Round             20        PTH        6.65inch (168.96mm)
+T6      41mil (1.05mm)                                            Round             48        PTH        6.84inch (173.63mm)
+T7      43mil (1.092mm)                                           Round             5         PTH        0.96inch (24.50mm)
+T8      47mil (1.2mm)                                             Round             8         PTH        2.34inch (59.32mm)
+T9      85mil (2.159mm)                                           Round             2         PTH        0.48inch (12.19mm)
+T10     98mil (2.5mm)                                             Round             4         PTH        7.18inch (182.37mm)
+T11     35mil (0.9mm)                                             Round             2         NPTH       0.17inch (4.40mm)
+T12     149mil (3.785mm)                                          Round             4         NPTH       16.93inch (430.14mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              294
+
+Total Processing Time (hh:mm:ss) : 00:00:00
