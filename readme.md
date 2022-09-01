@@ -122,3 +122,4 @@ design it with this constraint to see if I can get everything working fine.
 
 I've designed and printed a few [enclosures](https://a360.co/3RtZ853) using Fusion 360 and printed them on a Prusa Mini+ using PLA filaments.
 
+![Yaduinos image](https://github.com/hishamk/yaduino/blob/main/yaduinos.png?raw=true)
