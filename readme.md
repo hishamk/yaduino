@@ -2,7 +2,9 @@
 This project is inspired by the Simonduino project in Andre LaMothe's course on Udemy (Crash Course Electronics and PCB Design). As with other projects in the course, I've decided to turn up the volume to the proverbial "11". I call it 
 Yaduino - Yet Another Arduino (the missing r is deliberate!) :)
 
-  
+![Top PCB image](https://github.com/hishamk/yaduino/blob/main/top.png?raw=true)
+
+ 
 ### Design Goals
 My aim with this project was to have fun, learn and push myself to figure out how to implement my design goals for the 8-bit ATmega 328 microcontroller.
 
