@@ -65,14 +65,14 @@ I ordered the PCBs from JLC and utilized their assembly service. The main compon
 So once the board is full assembled, you'll want to burn the Arduino bootloader onto it. Assuming you have a factory-fresh ATmega 328 with no set fuses, this process should not pose any issues.
 
 *Tip*
-You can use https://vonnieda.org/software/avrfuses to check the fuse settings on the ATmega328 using a USBasp connected to the ICSP header.
+You can use [AVRFuses](https://vonnieda.org/software/avrfuses) to check the fuse settings on the ATmega328 using a USBasp connected to the ICSP header.
 
   
 To burn the bootloader and start uploading Arduino sketches:
 
 1. Connect a USBasp to the ICSP header.
 
-2. Install the MiniCore package
+2. Install the [MiniCore](https://github.com/MCUdude/MiniCore) package
 
 3. In the Arduino IDE, select MiniCore | Atmega328 for the Board, then select External 16MHz for clock, 2.7v for BOD, EEPROM retained for EEPROM, LTO Disabed for LTO Compiler, 328P/328PA for the Variant, YES (UART10) for the Bootloader
 
@@ -86,9 +86,9 @@ To burn the bootloader and start uploading Arduino sketches:
 
 ### ESP-8266 / WiFi
 
- To use an ESP-8266 ESP-01 with the Yaduino, you'll need to use the WiFIESPAT library.
+ To use an ESP-8266 ESP-01 with the Yaduino, you'll need to use the [WiFIESPAT](https://github.com/jandrassy/WiFiEspAT) library.
 
-I opted to use v2.2.0.0 of the firmware. You may need to update the firmware using a basic circuit and a USB-UART board (Google it, it's out there). Make sure you have a 100uF bypass cap if you're facing temperamental issues with either 
+I opted to use [v2.2.0.0](https://github.com/jandrassy/UnoWiFiDevEdSerial1/wiki/files/ESP8266-1MB-tx1rx3-AT_V2.2.zip) of the firmware. You may need to update the firmware using a basic circuit and a USB-UART board (Google it, it's out there). Make sure you have a 100uF bypass cap if you're facing temperamental issues with either 
 updating the firmware or testing it. A lot of these schematics on the net do not have this cap specified.
 
 Once your firmware is updated, you'll have to change the baud rate to 9600. You may do this manually using AT commands after updating the fimrware, or you could:
@@ -108,7 +108,7 @@ design it with this constraint to see if I can get everything working fine.
 
 ### Example Code
 
-  Attached is example code that does a few things:
+ The example code does a few things:
 
 1. Displays text on 1602A
 
@@ -120,5 +120,5 @@ design it with this constraint to see if I can get everything working fine.
 
 ### Enclosures
 
-I've designed a few cases using Fusion 360 and printed them on a Prusa Mini+ using PLA filaments. I've shared the link to the project. It's not super-organized, but it has a few variations.
+I've designed and printed a few [enclosures](https://a360.co/3RtZ853) using Fusion 360 and printed them on a Prusa Mini+ using PLA filaments.
 
