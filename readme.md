@@ -11,19 +11,19 @@ My aim with this project was to have fun, learn and push myself to figure out ho
    
 
  1. Should function as a regular Arduino (complete with ICSP for burning
-    the bootloader)
+    the bootloader).
 
  2. Should use as many SMD parts as possible from JLC's parts library so
-    that I can utilize their assembly service to some extent
+    that I can utilize their assembly service to some extent.
     
  3.  Should include easily accessible headers for pluggin in either an
-    I2C VFD/OLED display or a serial 1602A display
+    I2C VFD/OLED display or a serial 1602A display.
     
  4. Should work with a LiPo as well as USB power and have a proper
-    battery management circuit, boost circuit and load sharing circuit
+    battery management circuit, boost circuit and load sharing circuit.
     
  5. Should have a provision for plugging in an ESP-8266 ESP-01 module to add WiFi
-    access
+    access.
     
  6. Should have at least one optional IC, such as a demux, with some
     blinkenlights for good measure. This may be disabled using a solder
@@ -70,19 +70,20 @@ You can use [AVRFuses](https://vonnieda.org/software/avrfuses) to check the fuse
   
 To burn the bootloader and start uploading Arduino sketches:
 
-1. Connect a USBasp to the ICSP header.
+1. Connect a USBasp to the ICSP header on the Yaduino and the other end of the cable to your computer.
 
-2. Install the [MiniCore](https://github.com/MCUdude/MiniCore) package
+2. Install the [MiniCore](https://github.com/MCUdude/MiniCore) package on your computer (and before that, the Arduino IDE if not already installed).
 
-3. In the Arduino IDE, select MiniCore | Atmega328 for the Board, then select External 16MHz for clock, 2.7v for BOD, EEPROM retained for EEPROM, LTO Disabed for LTO Compiler, 328P/328PA for the Variant, YES (UART10) for the Bootloader
+3. In the Arduino IDE, select MiniCore | Atmega328 for the Board, then select External 16MHz for clock, 2.7v for BOD, EEPROM retained for EEPROM, LTO Disabed for LTO Compiler, 328P/328PA for the Variant, YES (UART10) for the Bootloader.
 
-4. Set the programmer to "USBasp (MiniCore)"
+4. Set the programmer to "USBasp (MiniCore)".
 
-5. Select Burn Bootloader
+5. Select Burn Bootloader.
 
 6. Once the bootloader is burned successfully, select AVRISP mkII (MiniCore) for the programmer.
 
-7. Your board is now ready to run Arduino code uploaded via the micro USB connection
+7. You may disconnect the USBasp at this point and connect via the micro USB connection. Your board is now ready to receive and run Arduino code.
+
 
 ### ESP-8266 / WiFi
 
@@ -93,9 +94,9 @@ updating the firmware or testing it. A lot of these schematics on the net do not
 
 Once your firmware is updated, you'll have to change the baud rate to 9600. You may do this manually using AT commands after updating the fimrware, or you could:
 
-1. Plug the ESP-8266 into the Yaduino
+1. Plug the ESP-8266 into the Yaduino.
 
-2. Load the ChangeATBaudRate sketch in the WiFiESPAT library's examples folder
+2. Load the ChangeATBaudRate sketch in the WiFiESPAT library's examples folder.
 
 3. Change the Software Serial ports to 11 and 10 instead of 6 and 7.
 
@@ -110,7 +111,7 @@ design it with this constraint to see if I can get everything working fine.
 
  The example code does a few things:
 
-1. Displays text on 1602A
+1. Displays text on 1602A.
 
 2. Connects to WiFi (make sure you run the WiFiESPAT examples folder sketch "SetUp PersistentWiFiConnection" to set your WiFi details first.)
 
