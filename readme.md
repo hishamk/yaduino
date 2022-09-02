@@ -1,4 +1,4 @@
-## The Yaduino - An ATmega328 playground
+## The Yaduino - An ATmega328P playground
 So this is my first stab at designing a microcontroller board. I call it Yaduino - Yet Another Arduino (the missing r is deliberate!) :)
 
 ![Top PCB image](https://github.com/hishamk/yaduino/blob/main/top.png?raw=true)
