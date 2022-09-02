@@ -8,7 +8,9 @@ This project is partially inspired by the [Simonduino](https://circuitmaker.com/
 Since I used CircuitMaker for schematic and PCB design, this project is also hosted on [CircuitMaker's project hub](https://circuitmaker.com/Projects/Details/HishamKhalifa-2/ATmega328-Playground).
  
 ### Design Goals
-This project does not necessarily "make sense" since a million other boards could do more, with less components and a smaller footprint. My aim with this project was to learn microcontroller board design and to figure out how to implement my (somewhat arbitrary) design goals for the 8-bit ATmega 328 microcontroller. The choice was mainly driven by the fact that I also had most components (or closely related counterparts) to breadboard most of the design before committing the final design to PCB manufacture. Besides, what's the fun in using other boards when you can learn to make your own and have fun while at it?
+This project does not necessarily "make sense" since a million other boards could do more, with less components and a smaller footprint. My aim with this project was to learn microcontroller board design and to figure out how to implement my (somewhat arbitrary) design goals for the 8-bit ATmega 328 microcontroller.
+
+The choice of MCU and components was mainly driven by the fact that I also had most materials (or closely related counterparts) to breadboard most of the design before committing it to PCB manufacture. Besides, what's the fun in using other boards when you can learn to make your own and have fun while at it?
 
  1. Should function as a regular Arduino (complete with ICSP for burning
     the bootloader).
