@@ -47,7 +47,7 @@ The issues were:
  1. ESP stability. ESP-8266 ESP-01 requires more than 200mA at startup. This needs clean power. Fixed with 100uF bypass.
 
  2. Board was receiving serial data (RX) but was unable to transmit (TX). Culprit was too small resistor value on TX LED. It was 1K. Changed to 3K3 and that fixed it. It seems the LED was drawing too much current away from the actual 
-TX signal distined to teh CH340C USB-UART IC.
+TX signal destined to the CH340C USB-UART IC.
 
 3. Forgot to connect supply on the charge management IC! Bodge wire to the rescue!
 
