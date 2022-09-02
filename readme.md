@@ -1,9 +1,7 @@
-## Inspiration
+## The Yaduino - An ATmega328 playground
 So this is my first stab at designing a microcontroller board. I call it Yaduino - Yet Another Arduino (the missing r is deliberate!) :)
 
 ![Top PCB image](https://github.com/hishamk/yaduino/blob/main/top.png?raw=true)
-
-This project is partially inspired by the [Simonduino](https://circuitmaker.com/Projects/Details/Andre-LaMothe/Simonduino-Color-Match-Game) project which in turn is based off the Arduino Nano. The Simonduino is used in Andre LaMothe's course on [Udemy](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjg_KF1fX5AhWOhP0HHQxAC3gQFnoECB0QAQ&url=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fcrash-course-electronics-and-pcb-design%2F&usg=AOvVaw1sOdiGusWrsevJXUfVBT1S).
 
 Since I used CircuitMaker for schematic and PCB design, this project is also hosted on [CircuitMaker's project hub](https://circuitmaker.com/Projects/Details/HishamKhalifa-2/ATmega328-Playground).
  
@@ -126,3 +124,7 @@ design it with this constraint to see if I can get everything working fine.
 I've designed and printed a few [enclosures](https://a360.co/3RtZ853) using Fusion 360 and printed them on a Prusa Mini+ using PLA filaments.
 
 ![Yaduinos image](https://github.com/hishamk/yaduino/blob/main/yaduinos.jpeg?raw=true)
+
+## Inspiration
+
+This project is partially inspired by the [Simonduino](https://circuitmaker.com/Projects/Details/Andre-LaMothe/Simonduino-Color-Match-Game) project which in turn is based off the Arduino Nano. The Simonduino is used in Andre LaMothe's course on [Udemy](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjg_KF1fX5AhWOhP0HHQxAC3gQFnoECB0QAQ&url=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fcrash-course-electronics-and-pcb-design%2F&usg=AOvVaw1sOdiGusWrsevJXUfVBT1S).
