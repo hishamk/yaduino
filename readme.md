@@ -104,7 +104,7 @@ Once your firmware is updated, you'll have to change the baud rate to 9600. You 
 
 5. Your ESP-8266 should now work at 9600.
 
-The reason we use Software Serial for the ESP-8266 connection is due to the fact that the hardware serial pins are also used for the 1602A display. Yes, I know, if you use an I2C display this wouldn't be an issue - but I wanted to 
+The reason Software Serial is used for the ESP-8266 connection is due to the fact that the hardware serial pins are also used for the 1602A display. Yes, I know, if you use an I2C display this wouldn't be an issue - but I wanted to 
 design it with this constraint to see if I can get everything working fine.
 
 ### Example Code
