@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: ATmega328Playground.CMPcbDoc   9/1/2022  9:05:14 AM
+NCDrill File Report For: ATmega328Playground.CMPcbDoc   9/5/2022  6:49:04 AM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,7 +7,7 @@ ASCII RoundHoles File : ATmega328Playground.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      12mil (0.305mm)                                           Round             167       PTH        44.41inch (1128.13mm)
+T1      12mil (0.305mm)                                           Round             163       PTH        43.01inch (1092.37mm)
 T2      28mil (0.7mm)                                             Round             6         PTH        1.10inch (28.00mm)
 T3      30mil (0.762mm)                                           Round             20        PTH        6.29inch (159.74mm)
 T4      35mil (0.889mm)                                           Round             8         PTH        0.70inch (17.78mm)
@@ -20,6 +20,6 @@ T10     98mil (2.5mm)                                             Round         
 T11     35mil (0.9mm)                                             Round             2         NPTH       0.17inch (4.40mm)
 T12     149mil (3.785mm)                                          Round             4         NPTH       16.93inch (430.14mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              294
+Totals                                                                              290
 
 Total Processing Time (hh:mm:ss) : 00:00:00

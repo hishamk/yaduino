@@ -2,91 +2,16 @@
 FileName = ATmega328Playground.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Layer
-      File : ATmega328Playground.GTL
+Generating : Bottom Overlay
+      File : ATmega328Playground.GBO
 
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
     D10
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
-    D93
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-    D100
-    D101
-    D102
-    D103
-    D104
-    D105
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : ATmega328Playground.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D86
-    D89
-    D90
-    D91
-    D92
-    D93
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-    D100
-    D101
-    D102
-    D103
-    D104
-    D105
+    D11
+    D15
 *************************************************************
 
 *************************************************************
@@ -110,48 +35,10 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : ATmega328Playground.GTP
+Generating : Bottom Solder
+      File : ATmega328Playground.GBS
 
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : ATmega328Playground.GBP
-
-    Adding Layer      : Bottom Paste
+    Adding Layer      : Bottom Solder
 
     Adding Layer      : Bottom Layer
 
@@ -159,31 +46,24 @@ Generating : Bottom Paste
 
 
 Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : ATmega328Playground.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D16
-*************************************************************
-
-*************************************************************
-Generating : Outline
-      File : ATmega328Playground.GM1
-
-    Adding Layer      : Outline
-
-
-Used DCodes :
-    D106
-    D107
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
 *************************************************************
 
 *************************************************************
@@ -198,7 +78,6 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D44
     D45
     D46
     D47
@@ -240,13 +119,73 @@ Used DCodes :
     D83
     D84
     D85
+    D86
+    D87
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : ATmega328Playground.GBS
+Generating : Top Layer
+      File : ATmega328Playground.GTL
 
-    Adding Layer      : Bottom Solder
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : ATmega328Playground.GBP
+
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom Layer
 
@@ -254,24 +193,89 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
-    D85
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : ATmega328Playground.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+*************************************************************
+
+*************************************************************
+Generating : Outline
+      File : ATmega328Playground.GM1
+
+    Adding Layer      : Outline
+
+
+Used DCodes :
+    D10
+    D108
+    D109
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : ATmega328Playground.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D88
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
 *************************************************************
 
 *************************************************************
@@ -284,10 +288,10 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D15
-    D108
-    D109
+    D16
     D110
+    D111
+    D112
 *************************************************************
 
 *************************************************************
@@ -300,6 +304,6 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D108
+    D110
 *************************************************************
 

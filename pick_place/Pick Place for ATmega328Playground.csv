@@ -1,11 +1,11 @@
 Altium Designer Pick and Place Locations
-C:\Users\hisham\AppData\Local\TempReleases\Snapshot\1\Assembly\Pick Place\Pick Place for ATmega328Playground.csv
+C:\Users\hisham\AppData\Local\TempReleases\Snapshot\2\Assembly\Pick Place\Pick Place for ATmega328Playground.csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       01/09/22
-Time:       09:05
+Date:       05/09/22
+Time:       06:49
 Revision:   Not in VersionControl
 Variant:    No variations
 Units used: mil
@@ -44,6 +44,7 @@ Units used: mil
 "C28","7515.630mil","4149.000mil","TopLayer","0"
 "C29","7515.630mil","4044.000mil","TopLayer","0"
 "C30","8136.000mil","4089.000mil","TopLayer","180"
+"C31","10985.094mil","4591.093mil","TopLayer","90"
 "D1","10793.520mil","3726.989mil","TopLayer","180"
 "D2","8865.972mil","3109.804mil","TopLayer","180"
 "D3","9066.472mil","3109.804mil","TopLayer","0"
@@ -86,7 +87,7 @@ Units used: mil
 "R4","8665.472mil","3109.802mil","TopLayer","0"
 "R5","9066.472mil","2972.064mil","TopLayer","0"
 "R6","6830.480mil","3902.992mil","TopLayer","180"
-"R7","11703.000mil","4612.000mil","TopLayer","180"
+"R7","11485.370mil","4723.000mil","TopLayer","180"
 "R8","11036.366mil","5125.000mil","TopLayer","180"
 "R9","10777.194mil","2891.293mil","TopLayer","180"
 "R10","11036.368mil","5009.146mil","TopLayer","0"
@@ -109,7 +110,7 @@ Units used: mil
 "R27","7515.630mil","4270.000mil","TopLayer","180"
 "SJ1","7612.937mil","4689.000mil","TopLayer","0"
 "SW1","7126.064mil","2759.520mil","TopLayer","0"
-"TP_GND","11240.000mil","4575.000mil","TopLayer","90"
+"TP_GND","11007.000mil","5727.000mil","TopLayer","90"
 "TP_3V3","11740.000mil","4464.315mil","TopLayer","90"
 "TP_5V","10673.008mil","4014.512mil","TopLayer","270"
 "TP_VBAT","10039.000mil","3413.000mil","TopLayer","90"
