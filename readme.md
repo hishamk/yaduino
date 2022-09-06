@@ -4,7 +4,9 @@ So this is my first stab at designing a microcontroller board. I call it Yaduino
 ![Top PCB image](https://github.com/hishamk/yaduino/blob/main/top.png?raw=true)
 
 Since I used CircuitMaker for schematic and PCB design, this project is also hosted on [CircuitMaker's project hub](https://circuitmaker.com/Projects/Details/HishamKhalifa-2/ATmega328-Playground).
- 
+
+A [YouTube video](https://youtu.be/OaU7GNxLcCE) of the Yaduino.
+
 ### Design Goals
 This project does not necessarily "make sense" since a million other boards could do more, with less components and a smaller footprint. My aim with this project was to learn microcontroller board design and to figure out how to implement my (somewhat arbitrary) design goals for the 8-bit ATmega 328 microcontroller.
 
