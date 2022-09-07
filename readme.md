@@ -8,7 +8,7 @@ Since I used CircuitMaker for schematic and PCB design, this project is also hos
 A [YouTube video](https://youtu.be/OaU7GNxLcCE) of the Yaduino.
 
 ### Design Goals
-This project does not necessarily "make sense" since a million other boards could do more, with less components and a smaller footprint. My aim with this project was to learn microcontroller board design and to figure out how to implement my (somewhat arbitrary) design goals for the 8-bit ATmega 328 microcontroller.
+This project does not necessarily "make sense" since a million other boards could do more, with less components and a smaller footprint. My aim with this project was to learn microcontroller board design and to figure out how to implement my (somewhat arbitrary) design goals for the 8-bit ATmega328 microcontroller.
 
 The choice of MCU and components was mainly driven by the fact that I also had most materials (or closely related counterparts) to breadboard most of the design before committing it to PCB manufacture. Besides, what's the fun in using other boards when you can learn to make your own and have fun while at it?
 
@@ -18,7 +18,7 @@ The choice of MCU and components was mainly driven by the fact that I also had m
  2. Should use as many SMD parts as possible from JLC's parts library so
     that I can utilize their assembly service to some extent.
     
- 3.  Should include easily accessible headers for pluggin in either an
+ 3.  Should include easily accessible headers for plugging in either an
     I2C VFD/OLED display or a serial 1602A display.
     
  4. Should work with a LiPo as well as USB power and have a proper
@@ -129,4 +129,4 @@ I've designed and printed a few [enclosures](https://a360.co/3RtZ853) using Fusi
 
 ## Inspiration
 
-This project is partially inspired by the [Simonduino](https://circuitmaker.com/Projects/Details/Andre-LaMothe/Simonduino-Color-Match-Game) project which in turn is based off the Arduino Nano. The Simonduino is used in Andre LaMothe's course on [Udemy](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjg_KF1fX5AhWOhP0HHQxAC3gQFnoECB0QAQ&url=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fcrash-course-electronics-and-pcb-design%2F&usg=AOvVaw1sOdiGusWrsevJXUfVBT1S).
+This project is partially inspired by the [Simonduino](https://circuitmaker.com/Projects/Details/Andre-LaMothe/Simonduino-Color-Match-Game) project which in turn is based off the Arduino Nano. The Simonduino is used in Andre LaMothe's course on [Udemy](https://www.udemy.com/course/crash-course-electronics-and-pcb-design/).
